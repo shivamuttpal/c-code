@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(6, 95, 89);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 20rem;
+}   
+.dice{
+    position: relative;
+    top: 15rem;
+    /* left: 1rem; */
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 4rem;
+    left: 30rem;
+    font-size: 5REM;
+}
+p{
+    font-size: 3rem;
+    font-weight: bold;
+}
